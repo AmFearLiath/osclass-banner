@@ -1,0 +1,306 @@
+
+.banners {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    overflow-x: hidden;
+}
+.banners .inner-box {
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.banners ul {
+    padding: 0;
+}
+
+.banners ul.categories_tools li {
+    display: inline-block;
+}
+
+.banners ul.menu-list li a {
+    background: #FFF;
+    display: block;
+    color: #444;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    padding: 5px 10px;
+    text-align: left;
+    border-top: 1px solid #eee;
+}
+
+.banners ul.menu-list li a:hover, 
+.banners ul.menu-list li a:active, 
+.banners ul.menu-list li.active a {
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+}
+
+div#banner_add {
+    border: 1px solid #cacaca;
+    margin: 15px 0;
+    padding: 10px 0;
+}
+
+#banners .widget-title h3, #positions .widget-title h3 {
+    float: left;
+}
+
+#banners label, #positions label {
+    width: 100%;
+}
+
+#banners label i.help, #banners h4 i.help, #positions label i.help, #positions h4 i.help {
+    float: right;
+    color: #3ea0c1;
+    cursor: help;
+}
+
+#banners label i.info, #banners h4 i.info, #positions label i.info, #positions h4 i.info {
+    color: #ca3939;
+    cursor: help;
+}
+
+#banners .widget-title button.add, #positions .widget-title button.add {
+    float: right;
+    top: 0;
+}
+
+#banners .col-os_id {
+    width: 50px !important;
+    text-align: center;
+}
+
+#banners .col-name {
+    text-align: left;
+}
+
+#banners .file-input input#fakeFile {
+    width: calc(100% - 125px) !important;
+    float: left;
+    margin-right: 10px;
+}
+
+#banners .file-input label#fakeLabel {
+    width: 115px !important;
+    height: auto;
+    float: left;
+    margin: 0;
+}
+
+#banners ul {
+    margin: 0;
+}
+
+#banners ul li.tableHeader {
+    background: #fafafa;
+    border: 1px solid #cacaca;
+    padding: 5px 0;    
+}
+
+#banners ul li.tableHeader ul li, #banners ul li.tableContent ul li {
+    display: inline-block;
+}
+
+#banners ul li.tableContent {
+    border-left: 1px solid #cacaca;    
+    border-right: 1px solid #cacaca;    
+    border-bottom: 1px solid #cacaca;    
+}
+
+#banners ul li.tableContent ul {
+    padding: 5px 0;
+    cursor: all-scroll;
+}
+
+#banners ul li.tableContent ul:nth-child(even) {
+    background: #fafafa;    
+}
+
+#banners ul li ul li.slideMove {
+    width: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#banners ul li ul li.slidePosition {
+    width: 120px;
+    text-align: center;
+}
+
+#banners ul li ul li.slideID {
+    width: 75px;
+    text-align: center;
+}
+
+#banners ul li ul li.slidePriority {
+    width: 75px;
+    text-align: center;
+}
+
+#banners ul li ul li.slideTools {
+    float: right;
+    width: 75px;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+#banners ul li ul li.slideTools i {
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+#banners .sliderTab {
+    margin: 10px 0;
+}
+
+#banners .sliderTab a {
+    display: block;
+    background: #ccc;
+    padding: 7px;
+    border-radius: 3px;
+    color: #2d2d2d;
+    cursor: pointer;
+}
+
+#banners .sliderTab a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+#banners .sliderTab > a * {
+    display: inline;
+}
+
+#banners .sliderTab > a > i {
+    float: right;
+    margin: 10px 10px 0 0;
+}
+
+#banners .sliderTab > ul {
+    display: none;
+}
+
+#banners_form form label {
+    width: 100%;
+}
+
+#banners_form form input {
+    width: calc(100% - 95px) !important;
+    float: left;
+}
+
+#banners_form form button {
+    width: 80px;
+    margin-left: 10px;
+    float: left;
+}
+
+#position_add {
+    border: 1px solid #cacaca;
+    padding: 10px 5px;
+}
+
+#position_add button {
+    float: right;
+}
+
+#positions > div > ul {
+    margin: 20px 0;
+}
+
+#positions ul li ul li {
+    display: inline-block;
+    line-height: 35px;
+    padding: 5px 0;
+}
+
+#positions ul li ul li.positionTitle {
+    width: 150px;
+}
+
+#positions ul li ul li.positionName {
+    width: 150px;
+}
+
+#positions ul li ul li.positionType {
+    width: 150px;
+}
+
+#positions ul li ul li.positionTools {
+    float: right;
+}
+
+#positions ul li ul li.positionCode {
+    width: 100%; 
+    display: none;
+}
+
+#positions ul li.tableHeader {
+    border: 1px solid #cacaca;
+    padding: 0 5px;
+}
+
+#positions ul li.tableData {
+    border-left: 1px solid #cacaca;
+    border-right: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+    padding: 0 5px;
+}
+
+
+/* OVERRIDES */
+.select-box-trigger {
+    background: none !important;
+    border: none !important;
+    padding: 3px 5px;
+    width: auto;
+    height: auto;
+}
+
+.form-control {
+    display: block;
+    width: 100% !important;
+    height: 34px !important;
+    padding: 6px 12px !important;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    color: #555 !important;
+    background-color: #fff !important;
+    background-image: none !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s !important;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s !important;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s !important;
+}
+
+.sort-highlight {
+    height: 50px;
+    background: #cacaca;
+    border: 1px dashed #2d2d2d;
+}
+
+div#sortStatus {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 3px 5px;
+    border-radius: 5px;
+}

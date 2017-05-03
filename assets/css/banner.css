@@ -1,0 +1,12 @@
+.banner_container .iview {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.banner_container .iviewSlider {
+    display: block;
+    margin: 0px auto;
+    background-size: contain !important;
+}
